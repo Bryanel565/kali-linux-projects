@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+library/Library.py
+library/__init__.py
+library/cli.py
+library.egg-info/PKG-INFO
+library.egg-info/SOURCES.txt
+library.egg-info/dependency_links.txt
+library.egg-info/requires.txt
+library.egg-info/top_level.txt

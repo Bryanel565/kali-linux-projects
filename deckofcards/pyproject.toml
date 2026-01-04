@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deckofcards"
+version = "0.1.0"
+description = "Small deck-of-cards learning project"
+requires-python = ">=3.8"
+readme = "README.md"
+authors = [{name = "bryanel565"}]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov", "ruff", "black", "mypy"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true

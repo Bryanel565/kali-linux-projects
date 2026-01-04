@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: python-library
+Version: 0.1.0
+Summary: Small learning library package
+Author: bryanel565
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# Python Library
+
+This is a small learning project that implements a simple `Library` and `Book` with methods to add, remove, find, and serialize books.   
+
+How to install for development:
+
+```bash
+# from repo root
+pip install -e .
+```
+
+Run tests:
+
+```bash
+pytest -q
+```
+
+Use CLI after installing:
+
+```bash
+libman list
+libman add Fiction "Dune" "Frank Herbert" 1965
+libman save-json library.json
+libman load-json library.json
+```

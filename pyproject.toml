@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "library"
+version = "0.1.1"
+description = "Small learning library package"
+requires-python = ">=3.8"
+readme = "README.md"
+authors = [{name = "bryanel565"}]
+
+[tool.setuptools]
+packages = ["library"]
+
+[project.optional-dependencies]
+test = ["pytest"]

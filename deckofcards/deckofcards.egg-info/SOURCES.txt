@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+deckofcards/__init__.py
+deckofcards/classic.py
+deckofcards/collection.py
+deckofcards.egg-info/PKG-INFO
+deckofcards.egg-info/SOURCES.txt
+deckofcards.egg-info/dependency_links.txt
+deckofcards.egg-info/requires.txt
+deckofcards.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_deck.py
+tests/test_edge_cases.py

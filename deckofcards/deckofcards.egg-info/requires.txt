@@ -1,0 +1,6 @@
+
+[test]
+pytest
+ruff
+black
+mypy
